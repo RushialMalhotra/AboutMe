@@ -27,7 +27,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Hey, I'm Rushial",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  description: "A Technical Business Analyst with 4 years of experience aspiring to learn and grow each day",
   image: profile.src,
   buttons: [
     {
@@ -46,25 +46,39 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from SPPU in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I am a highly skilled Technical Business Analyst with 4 years of experience.  I possess a strong foundation in data analysis, leveraging tools like Oracle SQL, Tableau, Excel, and Python to translate complex business needs into actionable insights. In my current role in my organisation, I thrived in a fast-paced environment, recognized for my vision and critical thinking.  I excelled at:",
+
+    "Conceptualizing Solutions: Bridging the gap between advanced analytics and business strategy, I designed solutions that met objectives while managing risk.",
+
+    "Communication & Collaboration: I fostered strong relationships with stakeholders at all levels, ensuring clear communication and project alignment.",
+
+    "Leadership & Work Ethic: I consistently delivered results, leading by example and demonstrating a commitment to excellence.",
+
+    "I am passionate about leveraging data to drive impactful business decisions.  I am confident in my ability to add significant value to your organization.",
   ],
+
 }
 
 export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Business Analysis and Research",
+      description: "Using my leisure time to research on latest topics and market trends and writing research papers and thesis on them",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Data Analysis and Visualisation",
+      description: "Exploring technologies like Oracle SQL and Python for Data Analysis and further using Tableau and PowerBI for visualisations through dashboards ",
       icons: null,
-    }
+    },
+
+    {
+      title: "Learning Frontend and Backend Development",
+      description: "I aspire to have my own startup building software solutions which will be focused on social causes and issues hence enhancing my tech stack",
+      icons: null,
+    },
+
   ],
 }
 
@@ -73,8 +87,8 @@ export const projects = {
   cards: [
 
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Business Analysis using various analysis techniques",
+      description: "Have covered a variety of Quantitative, Statistical and Mathematical Techniques for analysis various types of real-time business case studies ",
       icons: [
         {
           icon: faGithub,
@@ -82,48 +96,85 @@ export const projects = {
         },
       ]
     },
+    {
+      title: "Data Querying and modeling through SQL",
+      description: "List of projects undertaken for data modeling and querying data from the Oracle db to create required views",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/RushialMalhotra/Analysis-using-SQL-and-Python",
+        },
+      ]
+    },
+    {
+      title: "Data Analysis using Python and Excel",
+      description: "Projects depicting data analysis on various data sets using Python libraries like Numpy, pandas, matplot and scikit",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/RushialMalhotra/Analysis-using-SQL-and-Python",
+        },
+      ]
+    },
+    {
+      title: "Data Visualisation using Tableau Dashboards",
+      description: "I have developed some tableau dashboards covering various data trends of global markets",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://public.tableau.com/app/profile/rushial/vizzes",
+        },
+      ]
+    },
+    {
+      title: "Research Work and Thesis",
+      description: "In the quest of learning the current affairs and having a zeal for research work, I have done some individual research and have written some essays,research papers and thesis on latest trends",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/RushialMalhotra/Research-Work-Written-material",
+        },
+      ]
+    },
+    {
+      title: "Miscellaneous Coding Projects",
+      description: "Have tried some frontend and backend development as well like a small Client-Server handshake with Express.js as the Server Framework and Vue as the Client Framework.",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/RushialMalhotra",
+        },
+      ]
+    }
+
   ],
 }
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at malhotrarushial22@gmail.com.",
   buttons: [
     {
       title: "Email Me",
       link: "mailto:malhotrarushial22@gmail.com",
       isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
+    }
   ]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Rushial Malhotra | Computer Engineer | Business Analyst | Software Engineer",
-  description: "I create mobile apps and static websites. I graduated from SPPU in 2020 with a degree in Computer Engineering.",
+  title: "Rushial Malhotra | Business Analyst | Software Engineer",
+  description: "I am a highly skilled Technical Business Analyst with 4 years of experience.  I possess a strong foundation in data analysis, leveraging tools like Oracle SQL, Tableau, Excel, and Python to translate complex business needs into actionable insights. In my current role in my organisation, I thrived in a fast-paced environment, recognized for my vision and critical thinking.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
   title: "@rushial_malhotra",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  description: "Rushial Malhotra | Business Analyst | Software Engineer",
   cards: [
-    {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-
     {
       title: "My GitHub",
       link: "https://github.com/RushialMalhotra",
@@ -131,6 +182,10 @@ export const links = {
     {
       title: "My LinkedIn",
       link: "https://www.linkedin.com/in/rushial-malhotra-159862144/",
+    },
+    {
+      title: "My Instagram",
+      link: "https://www.instagram.com/rushial_malhotra?igsh=YzEyc3Qwd3czcTBv&utm_source=qr",
     },
   ]
 }
